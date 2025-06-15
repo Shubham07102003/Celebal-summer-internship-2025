@@ -1,3 +1,14 @@
+'''Create a Python program that implements a singly linked list using Object-Oriented Programming (OOP) principles. 
+Your implementation should include the following: A Node class to represent each node in the list. 
+A LinkedList class to manage the nodes, with methods to: Add a node to the end of the list 
+Print the list Delete the nth node (where n is a 1-based index) Include exception handling to manage edge cases such as:
+Deleting a node from an empty list 
+Deleting a node with an index out of range 
+Test your implementation with at least one sample list.'''
+
+# Name: Shubham
+# Student Id: CT_CSI_DS_4356
+
 class Node: #Representing a node in the singly linked list
     def __init__(self, data):
         self.data = data
@@ -29,8 +40,8 @@ class LinkedList: #Manages the singly linked list
             print(current.data, end=" -> " if current.next else "\n")
             current = current.next #Moving to the next node
 
-    def delete_nth_node(self, n):
-        """Deletes the nth node (1-based index) from the list."""
+    def delete_nth_node(self, n): #Deletes the nth node (1-based index) from the list.
+        
         if not self.head:
             raise Exception("Cannot delete from an empty list.")
         if n <= 0:
@@ -57,7 +68,7 @@ class LinkedList: #Manages the singly linked list
         print(f"Deleting node at position {n} with value {current.data}")
         prev.next = current.next
 
-# Testing the implementation process for the given classes
+#************** Testing the implementation process for the given classes **************
 
 if __name__ == "__main__":
     ll = LinkedList()
