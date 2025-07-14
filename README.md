@@ -12,9 +12,9 @@ This repo documents my learning journey, weekly topics, and assignments complete
 - [Week 3: Data Science with Python](https://github.com/Shubham07102003/Celebal-summer-internship-2025/tree/e15311e6e21a66ac7e2298c02a3896b1c1d2285a/WEEK-3)
 - [Week 4: Feature Engineering](https://github.com/Shubham07102003/Celebal-summer-internship-2025/tree/e15311e6e21a66ac7e2298c02a3896b1c1d2285a/WEEK-4)
 - [Week 5: Regression](https://github.com/Shubham07102003/Celebal-summer-internship-2025/tree/e15311e6e21a66ac7e2298c02a3896b1c1d2285a/WEEK-5)
+- [Week 6: Clustering & Model Evaluation](#week-6-clustering--model-evaluation)
 
-
-
+---
 
 ## Week 1 (Introduction to Python)
 
@@ -34,7 +34,7 @@ This repo documents my learning journey, weekly topics, and assignments complete
 - **Print the Triangle Pattern:**  
   Write a Python program to print a triangle pattern using loops and conditionals.
 
-
+---
 
 ## Week 2 (Object Oriented Programming in Python)
 
@@ -54,7 +54,7 @@ This repo documents my learning journey, weekly topics, and assignments complete
 - **Linked List Implementation:**  
   Implement a Linked List in Python using OOP principles and provide a method to delete the Nth node.
 
-
+---
 
 ## Week 3 (Data Science with Python)
 
@@ -104,8 +104,24 @@ This repo documents my learning journey, weekly topics, and assignments complete
 - **House Price Prediction:**  
   Build a regression model to predict house prices using advanced regression techniques. Apply data preprocessing, feature engineering, and evaluate multiple regression algorithms.
 
+---
+
+## Week 6 (Clustering & Model Evaluation)
+
+### Topics Covered
+- K-Means Clustering, Hierarchical Clustering, DBSCAN, Gaussian Mixture Models
+- Bagging, Boosting, Stacking, Random Forest, Gradient Boosting
+- L1 Regularization, L2 Regularization, ElasticNet Regularization
+- Model Evaluation and Hyperparameter Tuning
+
+### Assignment
+- **Model Evaluation and Hyperparameter Tuning:**  
+  Train multiple machine learning models and evaluate their performance using metrics such as accuracy, precision, recall, and F1-score.  
+  Implement hyperparameter tuning techniques like GridSearchCV and RandomizedSearchCV to optimize model parameters.  
+  Analyze the results to select the best-performing model.
 
 ---
 
 > **This repository will be updated weekly with new topics, assignments, and project work as the internship progresses.**  
 > Feel free to explore the code, notebooks, and resources provided for each week!
+
