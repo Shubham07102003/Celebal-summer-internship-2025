@@ -1,18 +1,18 @@
 # ModelVista
 
 **An Interactive ML Model Deployment Platform**  
-*Internship Assignment Submission – July 2025*
+*Celebal Internship Assignment Submission – July 2025*
 
 ---
 
 ## 🚀 Overview
 
-**ModelVista** is a modern Streamlit application purpose-built for interactive machine learning model deployment, exploration, and interpretation. Developed for my internship assignment, ModelVista enables users to:
+**ModelVista** is a next-generation Streamlit application crafted for hands-on machine learning model deployment, data insight, and interpretation. Specifically built for my internship objective, it enables users to:
 
-- Explore and visualize diverse, real-world datasets  
-- Train, tune, and analyze multiple machine learning models  
-- Make predictions on new data (single or batch) right in the browser  
-- Interpret results visually, with confidence bars, feature importance charts, and explainers
+- Explore and visualize a variety of real-world datasets
+- Train, tune, and evaluate diverse machine learning models
+- Perform predictions (single or batch) directly and interactively in the browser
+- Understand model outcomes with confidence visuals, feature rankings, and clear explanations
 
 ---
 
@@ -25,14 +25,13 @@
 
 ## 🏆 Features
 
-- **Multi-Page Navigation:** Home, Data Explorer, Playground, Predict, and About pages
-- **Modern, Responsive UI:** Clean layouts, clear navigation, and rich visual feedback
-- **Dataset Exploration:** Preview, describe, and visualize dataset features and stats
-- **Model Playground:** Select algorithms, tune hyperparameters, and instantly view model metrics, confusion matrix, and feature rankings
-- **Predictions:** Enter values or upload CSVs for real-time prediction; results come with explanations and probability/confidence scores
-- **Batch Tools:** Upload datasets for bulk prediction and download annotated results
-- **Interpretability:** Visual and text explanations, including confidence and feature bars, on every result
-- **Extensible:** Easily add new datasets and models for future needs
+- **Multi-Page Design:** Effortlessly navigate through Home, Data Explorer, Playground, Predict, and About sections.
+- **Intuitive User Interface:** Clean, adaptable layouts supporting rich charts and stepwise workflow.
+- **Interactive Data Exploration:** Preview datasets, analyze statistics, and visualize feature distributions.
+- **Model Playground:** Choose among popular algorithms, tune parameters, and get instant performance metrics (accuracy, F1-score, confusion matrix, feature importances).
+- **Live & Batch Prediction:** Enter inputs or upload CSVs for predictions; results are explained and visualized.
+- **Explainable Results:** Visual and plain-language model interpretations for all predictions.
+- **Easy Customization:** Seamlessly add new datasets or ML models for future expansion.
 
 ---
 
@@ -40,143 +39,167 @@
 
 ### 1. Home
 
-Dashboard overview, navigation guidance, assignment context
+Landing page offering project context, navigation guide, and assignment goals.
 
 **Screenshot:**  
-<!-- Paste Home Page screenshot URL here -->
+<img width="1430" height="530" alt="image" src="https://github.com/user-attachments/assets/d13a8a8d-e139-43f3-a1bb-ea327ca43715" />
+
 
 ---
 
 ### 2. Data Explorer
 
-Preview head, stats, distributions, view columns and get a feel for each dataset
+Choose datasets to preview data samples, view statistics, visualize numeric features, and list columns.
 
 **Screenshot:**  
-<!-- Paste Data Explorer screenshot URL here -->
+<img width="1427" height="887" alt="image" src="https://github.com/user-attachments/assets/efd658ee-063e-49e1-abcf-1e3e5f7e169d" />
+
 
 ---
 
 ### 3. Model Playground
 
-Choose dataset & algorithm, set hyperparameters, train instantly, and get metrics, confusion matrix, and feature importances
+Select a dataset, algorithm, and hyperparameters. Instantly train and evaluate the model, seeing live metrics, confusion matrix, and key feature rankings.
 
 **Screenshot:**  
-<!-- Paste Model Playground screenshot URL here -->
+<img width="1170" height="887" alt="image" src="https://github.com/user-attachments/assets/95d30032-c308-4dcf-b3d5-1bc70176e528" />
+
 
 ---
 
 ### 4. Predict
 
-Input data for a single prediction, see confidence and a feature-based explanation
+Input data for a prediction or upload a batch of examples. Receive immediate results complete with confidence scores and what drove the prediction.
 
 **Screenshot:**  
-<!-- Paste Single Prediction page screenshot URL here -->
+<img width="1177" height="634" alt="image" src="https://github.com/user-attachments/assets/904a222d-92a9-4f3e-9c3e-9523aecac88c" />
+
+<img width="1161" height="801" alt="image" src="https://github.com/user-attachments/assets/1d4afc95-6605-4a2d-8c02-9cf04020c1bd" />
 
 ---
 
-### 5. Batch Prediction
-
-Upload CSV files, get predictions for all rows, preview and download the results
-
-**Screenshot:**  
-<!-- Paste Batch Prediction screenshot URL here -->
 
 ---
 
-### 6. About
+### 5. About
 
-Project info, contact, and assignment statement
+Project details, assignment statement, credits, and contact.
 
 **Screenshot:**  
-<!-- Paste About page screenshot URL here -->
+<img width="1176" height="269" alt="image" src="https://github.com/user-attachments/assets/6bf5d6eb-287c-474e-a825-af542e7cfa78" />
+
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Streamlit** — for the web interface and app logic
-- **Pandas** — for data wrangling
-- **Scikit-learn** — for machine learning algorithms and metrics
-- **Matplotlib, Seaborn** — for plots and charts
+- **Streamlit:** Rapid app development & deployment
+- **Pandas:** Data analysis and manipulation
+- **Scikit-learn:** ML algorithms, training, and validation
+- **Matplotlib & Seaborn:** Visual analytics and plotting
 - **Python 3.10+**
-
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone this repository**
+1. **Clone the repository**
     ```
     git clone https://github.com/yourusername/ModelVista.git
     cd ModelVista
     ```
-
 2. **Install dependencies**
     ```
     pip install -r requirements.txt
     ```
-
 3. **Run the app**
     ```
     streamlit run streamlit_app.py
     ```
-
-4. **Visit the local URL in your browser and start exploring!**
+4. **Open the suggested local URL and interact with the app!**
 
 ---
-
 
 ## 💡 Customization
 
-- **Add or swap datasets:** Place datasets in the `Dataset/` folder and add them to the app's mapping.
-- **Personalize Look & Feel:** Change theme colors or add logos in `.streamlit/config.toml`.
-- **Add Models:** Extend model classes and evaluations in `streamlit_app.py` as needed.
+- **Add new datasets:** Place your CSV inside the `Dataset/` folder and update paths in the main code.
+- **Refresh the theme:** Adjust appearance using `.streamlit/config.toml` (colors, branding, font).
+- **Expand model options:** Add/expose new ML algorithms in `streamlit_app.py` as needed.
 
 ---
 
-## 🔍 Algorithms Included
+## 🧠 Supervised Machine Learning Algorithms
 
-- K-Nearest Neighbors
-- Support Vector Machines  
-- Naive Bayes Classifiers  
-- Decision Tree and Random Forest  
-- Linear & Logistic Regression  
+ModelVista leverages several foundational supervised learning algorithms, each tailored to solve problems where the "correct answer" is already known for training data:
 
-Each is paired with dynamic visualizations and live interpretability for practical deployment.
+- **K-Nearest Neighbors (KNN):**  
+  Predicts the class of a new data point by looking at the closest data points (neighbors) in the training set.
+
+- **Support Vector Machines (SVM):**  
+  Finds the optimal boundary (hyperplane) that separates classes with the greatest possible margin.
+
+- **Naive Bayes Classifiers:**  
+  A family of probabilistic algorithms based on Bayes’ Theorem, assuming feature independence, often used for text and categorical classification.
+
+- **Decision Tree:**  
+  Constructs a tree structure that asks a series
+
 
 ---
 
 ## 📚 Datasets
 
-A mix of classic and real-world datasets including:  
-- Heart Disease  
-- Titanic  
-- Iris  
-- Salary Regression  
-- Diabetes  
-- Car Evaluation  
-- ...and more
+Multiple datasets support a wide range of demonstrations, including but not limited to:
 
-All attribution and details are visible in the app.
+- **Iris:**  
+  A frequently-used multivariate dataset for classification, with three flower species.
+
+- **Breast Cancer:**  
+  Classification of tumors (benign or malignant) based on medical measurements.
+
+- **Wine:**  
+  Used to classify wine types from 13 chemical features.
+
+- **Digits:**  
+  Image-based classification task, recognizing handwritten digits (0-9).
+
+- **Diabetes:**  
+  Regression dataset for predicting disease progression using 10 medical indicators.
+
+- **Naive Bayes Classification Data:**  
+  Sourced from [Kaggle: Naive Bayes Classification Data](https://www.kaggle.com/datasets/himanshunakrani/naive-bayes-classification-data), focused on diabetes prediction.
+
+- **Cars Evaluation:**  
+  Information-rich dataset (from [Kaggle](https://www.kaggle.com/datasets/elikplim/car-evaluation-data-set)) for classifying car acceptability using categorical features.
+
+- **Salary:**  
+  Linear regression problem: years of experience mapped to salary levels, from [Kaggle](https://www.kaggle.com/datasets/abhishek14398/salary-dataset-simple-linear-regression).
+
+- **Heart Disease:**  
+  Classification of patient heart health status, using 16 clinical variables ([Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset)).
+
+- **Titanic:**  
+  Predicting passenger survival on the Titanic, a classic benchmark dataset ([Kaggle](https://www.kaggle.com/datasets/vinicius150987/titanic3/data)).
+
+*Each dataset is described and attributed inside the app, and preprocessing steps are handled as needed.*
 
 ---
 
-## 📦 Libraries Used
+## 📦 Libraries Overview
 
-- `numpy`
-- `pandas`
-- `scikit-learn`
-- `matplotlib`
-- `seaborn`
-- `streamlit`
-
+| Library           | Usage                                                   |
+|-------------------|--------------------------------------------------------|
+| **NumPy**         | Fast numerical operations on arrays/matrices            |
+| **Pandas**        | Data loading, manipulation, cleanup                     |
+| **Matplotlib**    | Foundational plotting and charting                      |
+| **Seaborn**       | Enhanced data visualization (analytics, trends, stats)  |
+| **Scikit-learn**  | Machine learning algorithms, evaluation, preprocessing  |
+| **Streamlit**     | User interface, deployment, and interaction             |
 
 
 ---
 
-**Thank you for trying out ModelVista!  
-This platform embodies practical, interactive ML deployment and a user-friendly approach to explainable AI.**
+**Thank you for exploring ModelVista!  
+This app demonstrates hands-on, visual, and accessible machine learning for real-world assignments.**
 
-*Replace each screenshot placeholder with your actual image URLs for a polished demonstration on GitHub.*
-
-
+*Don’t forget to replace the screenshot placeholders above with actual image URLs once your project is running for a richer GitHub presentation.*
