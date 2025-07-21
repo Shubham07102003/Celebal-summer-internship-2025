@@ -1,5 +1,11 @@
 # Celebal Summer Internship 2025
 
+**Student Name:** Shubham  
+**Student ID:** CT_CSI_DS_4356  
+**Domain:** Data Science  
+**Batch:** Batch 2  
+
+
 Welcome to my repository for the **Celebal Summer Internship 2025**!  
 This repo documents my learning journey, weekly topics, and assignments completed as part of the internship.
 
@@ -13,6 +19,8 @@ This repo documents my learning journey, weekly topics, and assignments complete
 - [Week 4: Feature Engineering](https://github.com/Shubham07102003/Celebal-summer-internship-2025/tree/e15311e6e21a66ac7e2298c02a3896b1c1d2285a/WEEK-4)
 - [Week 5: Regression](https://github.com/Shubham07102003/Celebal-summer-internship-2025/tree/e15311e6e21a66ac7e2298c02a3896b1c1d2285a/WEEK-5)
 - [Week 6: Clustering & Model Evaluation](#week-6-clustering--model-evaluation)
+- [Week 7: SQL Basics](#week-7-sql-basics)
+- [Week 8: Generative AI (GenAI)](#week-8-generative-ai-genai)
 
 ---
 
@@ -122,6 +130,50 @@ This repo documents my learning journey, weekly topics, and assignments complete
 
 ---
 
+## Week 7 (SQL Basics)
+
+### Topics Covered
+- Installation of SQL Server
+- Introduction to SQL
+- Getting Started with SQL Server
+- Overview of DDL, DML & TCL Commands
+- DDL SQL Server
+
+### Assignment
+- **Deploying Machine Learning Models with Streamlit:**  
+  Develop a web application using Streamlit to deploy a trained machine learning model.  
+  The app should allow users to input data, receive predictions, and understand model outputs through visualizations.  
+  This task will help you make your models accessible and interactive.
+
+  **Resources:**  
+  - [Streamlit Documentation](https://docs.streamlit.io/)  
+  - [How to Quickly Deploy Machine Learning Models with Streamlit](https://machinelearningmastery.com/how-to-quickly-deploy-machine-learning-models-streamlit/)
+
+---
+
+## Week 8 (Generative AI / GenAI)
+
+### Topics Covered
+- What is Generative AI
+- Foundation Models
+- Understanding LLMs
+- Prompt Engineering
+- LangChain Introduction
+- Agents and Chains
+- What is RAG
+- Implementing RAG with LangChain
+- Fine-tuning LLMs
+- Vector Databases
+
+### Assignment
+- **RAG Q&A Chatbot:**  
+  Build a RAG Q&A chatbot using document retrieval and generative AI for intelligent response generation.  
+  You can use any light model from Hugging Face or a licensed LLM (OpenAI, Claude, Grok, Gemini) if free credits are available.
+
+  **Resources:**  
+  - [Loan Approval Dataset](https://www.kaggle.com/datasets/sonalisingh1411/loan-approval-prediction?select=Training+Dataset.csv)
+
+---
+
 > **This repository will be updated weekly with new topics, assignments, and project work as the internship progresses.**  
 > Feel free to explore the code, notebooks, and resources provided for each week!
-
