@@ -1,6 +1,6 @@
 import { SearchResult } from '../types';
 
-const GEMINI_API_KEY = 'AIzaSyAzQL3q8k31CB6soWNwxRclzV2jb14_gDk';
+const GEMINI_API_KEY = 'ENTER YOUR API KEY';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
 
 export interface GeminiResponse {
