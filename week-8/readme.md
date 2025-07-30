@@ -45,6 +45,14 @@ A sophisticated Retrieval-Augmented Generation (RAG) chatbot that combines docum
 - **Training Data**: Use as a foundation for building ML models
 - **Case Studies**: Real-world example of RAG implementation
 
+
+## Screenshots:
+<img width="1315" height="880" alt="image" src="https://github.com/user-attachments/assets/4e5fdb11-7226-4257-8fd2-0ac9e03ab5f2" />
+
+<img width="984" height="800" alt="image" src="https://github.com/user-attachments/assets/89f08aa4-2f29-4e6b-a34d-00c7778f7a4c" />
+
+<img width="977" height="853" alt="image" src="https://github.com/user-attachments/assets/6e4d50ca-744f-4258-ad66-f5d948aac919" />
+
 ## Technology Stack
 
 ### Frontend
@@ -169,12 +177,6 @@ The application uses Google Gemini AI with the following configuration:
 - **Top K Results**: 5 (configurable)
 - **Indexing Method**: TF-IDF with hash-based vectorization
 
-## Screenshots:
-<img width="1315" height="880" alt="image" src="https://github.com/user-attachments/assets/4e5fdb11-7226-4257-8fd2-0ac9e03ab5f2" />
-
-<img width="984" height="800" alt="image" src="https://github.com/user-attachments/assets/89f08aa4-2f29-4e6b-a34d-00c7778f7a4c" />
-
-<img width="977" height="853" alt="image" src="https://github.com/user-attachments/assets/6e4d50ca-744f-4258-ad66-f5d948aac919" />
 
 ## Acknowledgments
 
