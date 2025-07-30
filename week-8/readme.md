@@ -2,8 +2,6 @@
 
 A sophisticated Retrieval-Augmented Generation (RAG) chatbot that combines document retrieval with generative AI to provide intelligent responses about loan approval data. Built with React, TypeScript, and Google's Gemini AI.
 
-![RAG Chatbot Demo](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=RAG+Q%26A+Chatbot)
-
 ## 🚀 Features
 
 ### Core Functionality
